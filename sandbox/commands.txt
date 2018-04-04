@@ -1,0 +1,33 @@
+amstalfo@moa:~$ cd ~
+amstalfo@moa:~$ mkdir sandbox
+amstalfo@moa:~$ cd sandbox
+amstalfo@moa:~/sandbox$ gedit commands.txt
+   
+amstalfo@moa:~/sandbox$ 
+amstalfo@moa:~/sandbox$ ls
+commands.txt
+amstalfo@moa:~/sandbox$ mkdir dir1
+amstalfo@moa:~/sandbox$ mkdir dir2
+amstalfo@moa:~/sandbox$ cd dir1
+amstalfo@moa:~/sandbox/dir1$ gedit file1.txt
+amstalfo@moa:~/sandbox/dir1$ ls
+file1.txt
+amstalfo@moa:~/sandbox/dir1$ cd ..
+amstalfo@moa:~/sandbox$ cd dir2
+amstalfo@moa:~/sandbox/dir2$ gedit file2.txt
+amstalfo@moa:~/sandbox/dir2$ ls
+file2.txt
+amstalfo@moa:~/sandbox/dir2$ cd ..
+amstalfo@moa:~/sandbox$ ls
+commands.txt  dir1  dir2
+amstalfo@moa:~/sandbox$ cd dir1
+amstalfo@moa:~/sandbox/dir1$ ls
+file1.txt
+amstalfo@moa:~/sandbox/dir1$ cd..
+cd..: command not found
+amstalfo@moa:~/sandbox/dir1$ cd ..
+amstalfo@moa:~/sandbox$ cd dir2
+amstalfo@moa:~/sandbox/dir2$ ls
+file2.txt
+amstalfo@moa:~/sandbox/dir2$ 
+
